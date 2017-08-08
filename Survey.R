@@ -51,7 +51,7 @@ library(svDialogs)
 # )
 # 
 # saveRDS(Q,"Q.rds")
-readRDS("Q.rds") -> Q
+readRDS("https://github.com/alvaroaguado3/Survey/blob/master/Q.rds") -> Q
 
 n <- rep(NA,length(Q))
 for( i in 1:length(Q)){
