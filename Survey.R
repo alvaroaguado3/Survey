@@ -60,7 +60,7 @@ for( i in 1:length(Q)){
   n[[i]] <- as.integer(dlgInput( paste(Q[i]," (0-10):  "))$res)
   while(is.na(n[[i]]) == TRUE){
     dlgMessage("Answer must be numeric from 0-10, Please answer the question again.")
-    n[[i]] <- as.integer(dlgInput( paste(Q[i])," (0-10):  ")$res)
+    n[[i]] <- as.integer(dlgInput( paste(Q[i]," (0-10):  "))$res)
     next
   }
   options(warn = 0)
