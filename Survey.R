@@ -14,7 +14,7 @@ pkgTest <- function(x)
 
 pkgTest("svDialogs")
 
-library(svDialogs)
+require(svDialogs)
 
 ## Ask something...
 
