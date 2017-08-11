@@ -16,41 +16,7 @@ pkgTest("svDialogs")
 
 require(svDialogs)
 
-## Ask something...
 
-### Areas 
-# - 1) Advanced Analytics
-# Project Assigned (Career Value, Enjoyment, )
-# Workload (Workload, Time of internship, Number of Projects)
-# Difficulty of project (Academic, Software, Business)
-# Advanced Analytics learnings (of Pfizer, PCH, within AA)
-# Enjoyment of project (Colleagues, Environment, Support Project)
-# What skills are valued in order to do this project optimally? (DataBase Administration, Business, Academic, Software)
-# 
-
-# - 2) PCH Internship Activities
-# Value PCH Internship Program
-# PCH Activities (Speeches, outSession, Volunteer, oTher activities)
-# Workload of PCH activities 
-
-
-# Q <- c("",
-#        "Q2",
-#        "Q3",
-#        "Q4",
-#        "Q5",
-#        "Q6",
-#        "Q7",
-#        "Q8",
-#        "Q9",
-#        "Q10",
-#        "Overall value of Internship Activities",
-#        "Overall enjoyment of the project",
-#        "Overall difficulty of the project",
-#        "Overall level of Satisfaction with the program"
-# )
-# 
-# saveRDS(Q,"Q.rds")
 u <- url("https://github.com/alvaroaguado3/Survey/blob/master/Q.rds?raw=true")
 readRDS(gzcon(u)) -> Q
 
